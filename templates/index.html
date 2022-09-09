@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+<title > MultiplicationTables </title>
+</head>
+  <body>
+    <h2  align = " center " > Print multiplication table of {{ n  }}</h2>
+      <table  border = "1 "  align= " center ">
+      {% for i in range(1,11) %}
+      <tr >
+      <td> {{n}} * {{i}} = {{n*i}} </td>
+      </tr>
+      {% endfor %}
+      </table>
+  </body>
+</html>
